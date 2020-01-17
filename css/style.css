@@ -1,0 +1,95 @@
+body, html
+{
+    height: 100%;
+    overflow: hidden;
+}
+
+body
+{
+    background: #1B1464;
+    font-family: 'Gayathri', sans-serif;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin: 0;
+}
+
+.game
+{
+    width:700px;
+    margin: 0 auto;
+
+}
+
+.game h2
+{
+    font-weight: lighter;
+
+}
+
+.title
+{
+    text-align: center;
+    padding: 12px;
+}
+
+.board #square
+{
+    width: 318px;
+    height: 318px;
+    margin: 0 auto;
+}
+.board #square .cell
+{
+    float: left;
+    width: 100px;
+    height: 100px;
+    background: #1289A7;
+    margin: 3px;
+}
+
+.menu 
+{
+    width: 318px;
+    margin: 0 auto;
+}
+
+.menu #restart
+{
+    text-align: center;
+    margin: 0 auto;
+    background: coral;
+    padding: 15px;
+    margin-top: 10px;
+    line-height: 0;
+    cursor: pointer;
+}
+
+.cell
+{
+    text-align: center;
+    font-size: 30px;
+    line-height: 110px;
+    cursor: pointer;
+}
+
+.cell:hover
+{
+    opacity: 0.9;
+}
+
+#restart:hover
+{
+    opacity: 0.9;
+}
+
+footer
+{
+    padding: 15px;
+    position: fixed;
+    bottom: 0;
+    text-align: center;
+    width: 100%;
+    font-size: 12px;
+}
