@@ -69,6 +69,7 @@ function restart()
     {
         cells[i].innerHTML = " "
     }
+    gameEnd = false
 }
 
 
